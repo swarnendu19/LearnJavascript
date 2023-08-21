@@ -34,8 +34,9 @@ function gameEngine(){
   snakeArr.forEach((e,index)=>{
    
     snakeElement = document.createElement('div')
-    snakeElement.style.gridRow
-
+    snakeElement.style.gridRowStart = e.y;
+    snakeElement.style.gridColumnStart =e.x;
+    bpard.appendChild(snakeElement)
 
   })
 
